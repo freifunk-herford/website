@@ -1,8 +1,8 @@
-![Freifunk Flensburg](https://raw.githubusercontent.com/freifunk-flensburg/website/master/assets/images/freifunk-flensburg.png)
+![Freifunk Herford](https://raw.githubusercontent.com/freifunk-flensburg/website/master/assets/images/freifunk-flensburg.png)
 
 ---
 
-## Freifunk-Flensburg.de
+## herford.freifunk.net
 
 ### Our main website for public relations.
 
@@ -37,5 +37,3 @@ Change the `config.inc.php` to adjust it to your needs.
 - **@roikiermedia**
 
 ---
-
-*Freifunk Flensburg is a project by the [nordlab e. V.](http://www.nordlab-ev.de) and [Chaostreff Flensburg](https://chaostreff-flensburg.de)*
