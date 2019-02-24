@@ -13,8 +13,9 @@
 	<address>
 		E-Mail-Adresse: <a target="_blank" href="mailto:info@herford.freifunk.net">info@herford.freifunk.net</a><br>
 		Facebook: <a target="_blank" href="https://www.facebook.com/FreifunkHerford">facebook.com/FreifunkHerford</a><br>
+		Telegram: <a target="_blank" href="https://t.me/freifunkherford">Freifunk Herford</a><br>
 		Twitter: <a target="_blank" href="https://twitter.com/freifunkhf">@FreifunkHF</a><br>
-		Mailingliste: <a target="_blank" href="http://lists.freifunk-flensburg.de/listinfo/freifunk">Anmeldung</a>
+		Mailingliste: <a target="_blank" href="#">Anmeldung</a>
 	</address>
 	<p>Besuche uns im <a href="https://t.me/freifunkherford" target="_blank">Telegram</a>.</p>
 </div>
