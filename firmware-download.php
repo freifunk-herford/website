@@ -3,7 +3,7 @@ require_once "config.inc.php";
 
 $router=$_REQUEST["router"];
 $fileExtension = '';
-$baseurl="firmware.herford.freifunk.net/";
+$baseurl="http://firmware.herford.freifunk.net/";
 
 switch ($_REQUEST["type"]) {
     case '0':
