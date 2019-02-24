@@ -1,6 +1,6 @@
 <div class="contact_left">
 	<h3>Offline</h3>
-	<p>Freifunk Flensburg ist ein Community mit Unterstützung des nordlab e. V. &ndash; Interessierte sind gerne eingeladen bei den Treffen des nordlab e. V. montags im Offenen Kanal, St.-Jürgen-Straße 95, ab 18:00 Uhr vorbei zu schauen.<br></p>
+	<p>Freifunk Herford ist ein Community mit Unterstützung des nordlab e. V. &ndash; Interessierte sind gerne eingeladen bei den Treffen des nordlab e. V. montags im Offenen Kanal, St.-Jürgen-Straße 95, ab 18:00 Uhr vorbei zu schauen.<br></p>
 	<address>
 		Telefon: <a href="tel:0461574945882">0461 574945882</a>  <br>
 		nordlab e. V. <br>
@@ -11,7 +11,7 @@
 <div class="contact_right">
 	<h3>Online</h3>
 	<address>
-		E-Mail-Adresse: <a target="_blank" href="mailto:presse@freifunk-flensburg.de">presse@freifunk-flensburg.de</a><br>
+		E-Mail-Adresse: <a target="_blank" href="mailto:info@herford.freifunk.net">info@herford.freifunk.net</a><br>
 		Facebook: <a target="_blank" href="https://www.facebook.com/FreifunkFlensburg">facebook.com/FreifunkFlensburg</a><br>
 		Twitter: <a target="_blank" href="https://twitter.com/FreiFunkFlens">@FreiFunkFlens</a><br>
 		IRC: <a target="_blank" href="http://wiki.freifunk-flensburg.de/wiki/IRC">#freifunk-flensburg</a><br>
