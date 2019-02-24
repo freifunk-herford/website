@@ -3,7 +3,7 @@ require_once "config.inc.php";
 
 $router=$_REQUEST["router"];
 $fileExtension = '';
-$baseurl="./";
+$baseurl="firmware.herford.freifunk.net/";
 
 switch ($_REQUEST["type"]) {
     case '0':
@@ -37,7 +37,7 @@ if($router === '-1') {
         backlink('Bitte gib eine Comunity an.');
     }
     else {
-        $href=$baseurl.'media/firmware/' . $community . '/' . $type . '/' . $firmware_prefix . $router . $fileExtension . '.bin';
+        $href=$baseurl.'stable' . '/' . $type . '/' . $firmware_prefix . $router . $fileExtension . '.bin';
         header('Location: '.$href);
         echo '<a href="'.$href.'">redirecting</a>';
     }
