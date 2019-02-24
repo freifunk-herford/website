@@ -24,24 +24,6 @@ require_once "config.inc.php";
     <div class="select-field">
         <select id="download-form-router" name="router">
             <option value="-1">Bitte wähle einen Router aus</option>
-            <optgroup label="Allnet">
-                <option value="-allnet-all0315n">Allnet 0315n</option>
-            </optgroup>
-            <optgroup label="Buffalo">
-                <option value="-buffalo-wzr-hp-ag300h-wzr-600dhp">Buffalo WZR HP AG300H WZR 600DHP</option>
-                <option value="-buffalo-wzr-hp-g450h">Buffalo WZR HP G450H</option>
-            </optgroup>
-            <optgroup label="D-Link">
-                <option value="-d-link-dir-615-rev-e1">D-Link 615</option>
-                <option value="-d-link-dir-825-rev-b1">D-Link 825</option>
-            </optgroup>
-            <optgroup label="gl-inet">
-                <option value="-gl-inet-6408a-v1">Inet 6408a Ver:1</option>
-                <option value="-gl-inet-6416a-v1">Inet 6416a Ver:1</option>
-            </optgroup>
-            <optgroup label="Linksys">
-                <option value="-linksys-wrt160nl">Linksys WRT 160 NL</option>
-            </optgroup>
             <optgroup label="Netgear">
                 <option value="-netgear-wndr3700">Netgear WNDR3700 Ver:1</option>
                 <option value="-netgear-wndr3700v2">Netgear WNDR3700 Ver:2</option>
@@ -52,13 +34,8 @@ require_once "config.inc.php";
             </optgroup>
             <optgroup label="TP-Link">
                 <option value="-tp-link-cpe210-v1.0">TP-Link CPE210 Ver:1</option>
-                <option value="-tp-link-cpe210-v1.1">TP-Link CPE210 Ver:1.1</option>
-                <option value="-tp-link-cpe220-v1.0">TP-Link CPE220 Ver:1</option>
-                <option value="-tp-link-cpe210-v1.1">TP-Link CPE220 Ver:1.1</option>
+                <option value="-tp-link-cpe210-v2.0">TP-Link CPE210 Ver:2.0</option>
                 <option value="-tp-link-cpe510-v1.0">TP-Link CPE510 Ver:1</option>
-                <option value="-tp-link-cpe510-v1.1">TP-Link CPE510 Ver:1.1</option>
-                <option value="-tp-link-cpe520-v1.0">TP-Link CPE520 Ver:1</option>
-                <option value="-tp-link-cpe520-v1.1">TP-Link CPE520 Ver:1.1</option>
                 <option value="-tp-link-tl-mr3020-v1">TP-Link TL MR 3020 Ver:1</option>
                 <option value="-tp-link-tl-mr3040-v1">TP-Link TL MR 3040 Ver:1</option>
                 <option value="-tp-link-tl-mr3040-v2">TP-Link TL MR 3040 Ver:2</option>
@@ -99,16 +76,20 @@ require_once "config.inc.php";
                 <option value="-tp-link-tl-wr841n-nd-v7">TP-Link TL WR 841 N/ND Ver:7</option>
                 <option value="-tp-link-tl-wr841n-nd-v8">TP-Link TL WR 841 N/ND Ver:8</option>
                 <option value="-tp-link-tl-wr841n-nd-v9">TP-Link TL WR 841 N/ND Ver:9</option>
-                <option value="-tp-link-tl-wr841n-nd-v10" class="highlighted">TP-Link TL WR 841 N/ND Ver:10</option>
+                <option value="-tp-link-tl-wr841n-nd-v10">TP-Link TL WR 841 N/ND Ver:10</option>
+                <option value="-tp-link-tl-wr841n-nd-v11">TP-Link TL WR 841 N/ND Ver:11</option>
+                <option value="-tp-link-tl-wr841n-nd-v12" class="highlighted">TP-Link TL WR 841 N/ND Ver:12</option>
                 <option value="-tp-link-tl-wr842n-nd-v1">TP-Link TL WR 842 N/ND Ver:1</option>
                 <option value="-tp-link-tl-wr842n-nd-v2">TP-Link TL WR 842 N/ND Ver:2</option>
                 <option value="-tp-link-tl-wr941n-nd-v2">TP-Link TL WR 941 N/ND Ver:2</option>
                 <option value="-tp-link-tl-wr941n-nd-v3">TP-Link TL WR 941 N/ND Ver:3</option>
                 <option value="-tp-link-tl-wr941n-nd-v4">TP-Link TL WR 941 N/ND Ver:4</option>
                 <option value="-tp-link-tl-wr941n-nd-v5">TP-Link TL WR 941 N/ND Ver:5</option>
+                <option value="-tp-link-tl-wr941n-nd-v6">TP-Link TL WR 941 N/ND Ver:6</option>
                 <option value="-tp-link-tl-wr1043n-nd-v1">TP-Link TL WR 1043 N/ND Ver:1</option>
                 <option value="-tp-link-tl-wr1043n-nd-v2">TP-Link TL WR 1043 N/ND Ver:2</option>
-                <option value="-tp-link-tl-wr1043n-nd-v3" class="highlighted">TP-Link TL WR 1043 N/ND Ver:3</option>
+                <option value="-tp-link-tl-wr1043n-nd-v3">TP-Link TL WR 1043 N/ND Ver:3</option>
+                <option value="-tp-link-tl-wr1043n-nd-v4" class="highlighted">TP-Link TL WR 1043 N/ND Ver:4</option>
             </optgroup>
             <optgroup label="Ubiquiti">
                 <option value="-ubiquiti-bullet-m">Ubiquiti Bullet M</option>
@@ -130,15 +111,14 @@ require_once "config.inc.php";
     </div>
     <input type="submit" class="submit" value="Herunterladen">
     <a class="expertlist" href="http://firmware.herford.freifunk.net">Dateiliste für Experten</a>
-    <p>Eine Anleitung wie du die Freifunk Flensburg Firmware auf deinem Router selber installieren kannst findest du bei uns <a href="http://wiki.freifunk-flensburg.de/wiki/Einen_Knoten_einrichten">hier im Wiki</a>. Die Freifunk Flensburg Firmware steht unter der <a href="http://de.wikipedia.org/wiki/GNU_General_Public_License" target="_blank">GPL Lizenz</a>. Du darfst sie somit kostenlos nutzen, studieren, ändern und verbreiten.</p>
+    <p>Eine Anleitung wie du die Freifunk Herford Firmware auf deinem Router selber installieren kannst findest du bei uns <a href="http://wiki.freifunk-flensburg.de/wiki/Einen_Knoten_einrichten">hier im Wiki</a>. Die Freifunk Herford Firmware steht unter der <a href="http://de.wikipedia.org/wiki/GNU_General_Public_License" target="_blank">GPL Lizenz</a>. Du darfst sie somit kostenlos nutzen, studieren, ändern und verbreiten.</p>
 </form>
 <aside class="participate_list-links">
-    <h2>Links zu Freifunk Flensburg</h2>
+    <h2>Links zu Freifunk Herford</h2>
     <ul>
-        <li><a target="_blank" href="http://wiki.freifunk-flensburg.de/wiki/Hauptseite">Freifunk Flensburg Wiki</a> - Unser gesammeltes Wissen</li>
-        <li><a target="_blank" href="https://github.com/freifunk-flensburg">GitHub</a> - Unser Code zum Mitbasteln</li>
-        <li><a target="_blank" href="http://map.freifunk-flensburg.de">Die Mesh-Map</a> - Unsere detailierte Knotenkarte</li>
-        <li><a target="_blank" href="http://nordlab-ev.de">nordlab e. V.</a></li>
+        <li><a target="_blank" href="http://wiki.freifunk-flensburg.de/wiki/Hauptseite">Freifunk Herford Wiki</a> - Unser gesammeltes Wissen</li>
+        <li><a target="_blank" href="https://github.com/freifunk-herford">GitHub</a> - Unser Code zum Mitbasteln</li>
+        <li><a target="_blank" href="http://map.herford.freifunk.net">Die Mesh-Map</a> - Unsere detailierte Knotenkarte</li>
     </ul>
     <h2>Allgemeine Freifunk Links</h2>
     <ul>
